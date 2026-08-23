@@ -7,8 +7,8 @@ import "fmt"
 // It is required to find their greatest common divisor, that is,
 // the largest positive integer that divides both numbers m and n.
 func main() {
-	m := 119
-	n := 544
+	m := 4584
+	n := 1284408
 
 	result := algorithmEuclid(m, n)
 	fmt.Println(result)
